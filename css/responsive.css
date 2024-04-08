@@ -1,0 +1,21 @@
+/* mobile */
+
+@media (max-width:576px) {
+  .img-parent img {
+    margin: 0px auto;
+  }
+
+  .contact-us {
+    height: auto;
+  }
+
+  .contact-us .parentinput {
+    display: block;
+    width: 100%;
+  }
+
+  .contact-us .parentinput .allinput,
+  .contact-us .parentinput .textarea-send {
+    width: 100%;
+  }
+}

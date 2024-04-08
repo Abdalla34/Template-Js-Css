@@ -151,19 +151,6 @@ document.addEventListener("click", (evn) => {
 });
 
 
-//  let toSection = document.querySelectorAll(".nav-bullts .bullts");
-//  let alllinks = document.querySelectorAll(".navbar li a");
-// function scrolltosomewhere(ev) {
-//   ev.addEventListener("Click", (e) => {
-//     document.querySelector(e.target.dataset.section).scrollIntoView({
-//       behavior:"smooth"
-//     })
-//   })
-// }
-// scrolltosomewhere(toSection)
-// scrolltosomewhere(alllinks)
-//handlerACtiveClass
-
 function handlerActive(ele) {
   ele.target.parentElement.querySelectorAll(".active").forEach(removeActiveClass => {
     removeActiveClass.classList.remove("active")
@@ -254,14 +241,7 @@ nabarstylemenu.onclick = function (e) {
 
 
 
-// document.addEventListener("click", (e) => {
-//   if (e.target !== buttonMenu && e.target !== nabarstylemenu) {
-//     if (nabarstylemenu.classList.contains("open")) {
-//       buttonMenu.classList.toggle("menu-show")
-//       nabarstylemenu.classList.toggle("open")
-//     }
-//   }
-// })
+
 
 
 
